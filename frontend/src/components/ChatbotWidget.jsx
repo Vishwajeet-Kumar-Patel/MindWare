@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { PaperAirplaneIcon, ChatBubbleBottomCenterIcon } from '@heroicons/react/24/solid';
 import axios from 'axios';
+import API from '../api/axios';
 
 export default function ChatbotWidget() {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,7 +25,7 @@ export default function ChatbotWidget() {
     setLoading(true);
 
     try {
-      const res = await axios.post('https://mindware-1.onrender.com/api/chat', {
+      const res = await API.post('/chat', {
         message: input,
       });
 
