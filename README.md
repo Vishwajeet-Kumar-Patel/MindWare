@@ -6,10 +6,9 @@ A modern, interactive, and comprehensive mental wellness platform that allows us
 
 ## 🌟 Live Preview
 
-🚀 [Visit the Live Site](https://your-live-link.com)  
+🚀 [Visit the Live Site](https://mind-ware.vercel.app/)  
 🔐 Demo Login:  
-- **Email**: `guest@example.com`  
-- **Password**: `guest123`
+- Can directly Login as Guest by clicking on the option
 
 ---
 
@@ -108,10 +107,13 @@ A modern, interactive, and comprehensive mental wellness platform that allows us
 ## 🚀 Getting Started Locally
 
 ```bash
-git clone https://github.com/your-username/mental-health-portal.git
-cd mental-health-portal
+git clone https://github.com/Vishwajeet-Kumar-Patel/MindWare.git
+cd frontend
 npm install
-npm start
+npm run dev
+
+cd server
+node server.js
 
 
 💡 Future Scope (Optional Enhancements)
