@@ -13,6 +13,7 @@
     "@headlessui/react": "^2.2.4",
     "@heroicons/react": "^2.2.0",
     "aos": "^2.3.4",
+    "axios": "^1.10.0",
     "chart.js": "^4.5.0",
     "firebase": "^11.10.0",
     "html2canvas": "^1.4.1",
