@@ -43,9 +43,8 @@ A modern, interactive, and comprehensive mental wellness platform that allows us
   - Daily check-in using emojis
   - Visualized tracking of emotional patterns
 
-- **📓 Journal Section**
-  - Private journaling feature for self-reflection
-  - Secure per-user saved entries
+- **🔐 OAuth Login**
+  - Enable sign-in via Google, GitHub, etc.
 
 - **💬 AI Chatbot (MindBot)**
   - Powered by OpenRouter / GPT APIs
@@ -118,8 +117,6 @@ node server.js
 
 💡 Future Scope (Optional Enhancements)
 Here are some features planned for future releases:
-
-🔐 OAuth Login — Enable sign-in via Google, GitHub, etc.
 
 🕵️ Anonymous Journaling Mode — Journal entries without login.
 
