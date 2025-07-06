@@ -28,7 +28,7 @@ export default function HistoryPage() {
       if (!token) return navigate("/login");
 
       try {
-        const res = await axios.get("http://localhost:5000/api/results/history", {
+        const res = await axios.get("https://mindware-1.onrender.com/api/results/history", {
           headers: {
             Authorization: `Bearer ${token}`,
           },
