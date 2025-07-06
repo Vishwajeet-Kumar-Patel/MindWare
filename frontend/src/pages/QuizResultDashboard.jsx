@@ -43,7 +43,7 @@ export default function QuizResultDashboard() {
   else
     adviceText = "🔴 Severe — Please consult a licensed mental health expert immediately.";
 
-  const mailToLink = `mailto:counselor@mindcare.com?subject=Quiz%20Assessment%20Sharing&body=Hello%20Counselor,%0D%0A%0D%0AI%20just%20completed%20the%20${formattedTestName}%20test%20on%20MindWare.%0D%0AMy%20score:%20${score}.%0D%0A%0D%0A${adviceText}%0D%0A%0D%0AThank%20you!`;
+  const mailToLink = `mailto:counselor@mindware.com?subject=Quiz%20Assessment%20Sharing&body=Hello%20Counselor,%0D%0A%0D%0AI%20just%20completed%20the%20${formattedTestName}%20test%20on%20MindWare.%0D%0AMy%20score:%20${score}.%0D%0A%0D%0A${adviceText}%0D%0A%0D%0AThank%20you!`;
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-indigo-50 to-blue-100 px-4 py-10 text-gray-800 font-sans">
@@ -103,3 +103,5 @@ export default function QuizResultDashboard() {
     </div>
   );
 }
+
+

@@ -29,7 +29,7 @@ export default function DashboardPage() {
       {/* Navbar */}
       <nav className="bg-white shadow fixed w-full z-50 rounded-b-2xl">
   <div className="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
-    <h1 className="text-xl font-bold text-indigo-700">🧠 MindCare</h1>
+    <h1 className="text-xl font-bold text-indigo-700">🧠 MindWare</h1>
 
     {/* Desktop Nav */}
     <ul className="hidden md:flex space-x-6 text-sm font-medium">
@@ -229,12 +229,12 @@ export default function DashboardPage() {
       <footer className="bg-indigo-800 text-white py-10 mt-10 rounded-t-3xl" data-aos="fade-up">
         <div className="max-w-6xl mx-auto px-4 grid md:grid-cols-3 gap-6 text-sm">
           <div>
-            <h4 className="font-bold text-lg mb-2">MindCare</h4>
-            <p>MindCare is your safe space for mental clarity and emotional support. Start your healing journey now.</p>
+            <h4 className="font-bold text-lg mb-2">MindWare</h4>
+            <p>MindWare is your safe space for mental clarity and emotional support. Start your healing journey now.</p>
           </div>
           <div>
             <h4 className="font-semibold mb-2">Contact Us</h4>
-            <p>Email: support@mindcare.com</p>
+            <p>Email: support@MindWare.com</p>
             <p>Phone: +91-9876543210</p>
           </div>
           <div>
@@ -248,7 +248,7 @@ export default function DashboardPage() {
           </div>
         </div>
         <p className="text-center mt-8 text-gray-300 text-xs">
-          © {new Date().getFullYear()} MindCare | Designed with 💜 by Vishwajeet Kumar
+          © {new Date().getFullYear()} MindWare | Designed with 💜 by Vishwajeet Kumar
         </p>
       </footer>
       <ChatbotWidget />
